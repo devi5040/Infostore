@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Generation Time: Jan 08, 2024 at 02:54 AM
+-- Generation Time: Feb 18, 2024 at 08:03 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -136,17 +136,18 @@ CREATE TABLE `personal` (
   `blood` varchar(10) DEFAULT NULL,
   `sslc` varchar(10) DEFAULT NULL,
   `puc` varchar(10) DEFAULT NULL,
-  `qualification` varchar(10) DEFAULT NULL
+  `qualification` varchar(10) DEFAULT NULL,
+  `img` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `personal`
 --
 
-INSERT INTO `personal` (`id`, `name`, `dob`, `gender`, `height`, `weight`, `permanent`, `current`, `blood`, `sslc`, `puc`, `qualification`) VALUES
-(1, 'Deviprasad Rai P', '2002-10-20', 'M', 175, 76, 'Peruvaje Dola House, Peruvaje Village and Post, Sullia Taluk, D.K. 574212', 'Peruvaje Dola House, Peruvaje Village and Post, Sullia Taluk, D.K. 574212', 'A+ve', '92.64', '83.33', 'B.Tech'),
-(2, 'Jeevan', '2002-01-01', 'M', 101, 29, 'Mangalore', 'Mangalore', 'B+ve', '79', '89', 'B.Tech'),
-(3, 'thejaswi', '2023-02-28', 'F', 155, 50, 'heya ', 'heya', 'A', '625', '600', 'btech');
+INSERT INTO `personal` (`id`, `name`, `dob`, `gender`, `height`, `weight`, `permanent`, `current`, `blood`, `sslc`, `puc`, `qualification`, `img`) VALUES
+(1, 'Deviprasad Rai P', '2002-10-20', 'M', 175, 76, 'Peruvaje Dola House, Peruvaje Village and Post, Sullia Taluk, D.K. 574212', 'Peruvaje Dola House, Peruvaje Village and Post, Sullia Taluk, D.K. 574212', 'A+ve', '92.64', '83.33', 'B.Tech', 'dummy.webp'),
+(2, 'Jeevan', '2002-01-01', 'M', 101, 29, 'Mangalore', 'Mangalore', 'B+ve', '79', '89', 'B.Tech', ''),
+(3, 'thejaswi', '2023-02-28', 'F', 155, 50, 'heya ', 'heya', 'A', '625', '600', 'btech', '');
 
 -- --------------------------------------------------------
 
