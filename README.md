@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<< HEAD
 # Infostore
 =======
 # Getting Started with Create React App
